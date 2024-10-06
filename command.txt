@@ -1,0 +1,1 @@
+iverilog -o out.vvp -g2012 ./single_cycle_tb.sv ./single_cycle_top.sv && vvp out.vvp

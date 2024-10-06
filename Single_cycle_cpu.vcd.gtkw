@@ -1,0 +1,102 @@
+[*]
+[*] GTKWave Analyzer v3.3.61 (w)1999-2014 BSI
+[*] Sun Oct  6 18:38:41 2024
+[*]
+[dumpfile] "/nfs_scratch/scratch/FV/ayyaz/Single_Cycle_RISCV_CPU/dump.vcd"
+[dumpfile_mtime] "Sun Oct  6 18:34:46 2024"
+[dumpfile_size] 7024
+[savefile] "/nfs_scratch/scratch/FV/ayyaz/Single_Cycle_RISCV_CPU/Single_cycle_cpu.vcd.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1 -1
+*-6.369234 450 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] single_cycle_tb.
+[treeopen] single_cycle_tb.riscv1.
+[sst_width] 219
+[signals_width] 374
+[sst_expanded] 1
+[sst_vpaned_height] 309
+@29
+single_cycle_tb.clk
+@28
+single_cycle_tb.rst
+@800200
+-PC
+@22
+single_cycle_tb.riscv1.pc.PC[31:0]
+single_cycle_tb.riscv1.pc.PC_NEXT[31:0]
+@1000200
+-PC
+@800200
+-Instruction Memory
+@22
+single_cycle_tb.riscv1.IM.A[31:0]
+single_cycle_tb.riscv1.IM.RD[31:0]
+@1000200
+-Instruction Memory
+@800200
+-SignExtend
+@28
+single_cycle_tb.riscv1.signextnd.ImmSrc[1:0]
+@22
+single_cycle_tb.riscv1.signextnd.Imm_Ext[31:0]
+single_cycle_tb.riscv1.signextnd.In[31:0]
+@1000200
+-SignExtend
+@800200
+-Register File
+@22
+single_cycle_tb.riscv1.RF.A1[4:0]
+single_cycle_tb.riscv1.RF.RD1[31:0]
+single_cycle_tb.riscv1.RF.A2[4:0]
+single_cycle_tb.riscv1.RF.RD2[31:0]
+single_cycle_tb.riscv1.RF.A3[4:0]
+single_cycle_tb.riscv1.RF.WD3[31:0]
+@28
+single_cycle_tb.riscv1.RF.WE3
+@1000200
+-Register File
+@800200
+-ALU
+@28
+single_cycle_tb.riscv1.ALU.ALUControl[2:0]
+@22
+single_cycle_tb.riscv1.ALU.A[31:0]
+single_cycle_tb.riscv1.ALU.B[31:0]
+single_cycle_tb.riscv1.ALU.Result[31:0]
+@1000200
+-ALU
+@800200
+-Control Unit
+@28
+single_cycle_tb.riscv1.cntrl_unit_top.ALUControl[2:0]
+single_cycle_tb.riscv1.cntrl_unit_top.ALUOp[1:0]
+single_cycle_tb.riscv1.cntrl_unit_top.ALUSrc
+single_cycle_tb.riscv1.cntrl_unit_top.Branch
+single_cycle_tb.riscv1.cntrl_unit_top.ImmSrc[1:0]
+single_cycle_tb.riscv1.cntrl_unit_top.Jump
+single_cycle_tb.riscv1.cntrl_unit_top.MemWrite
+@22
+single_cycle_tb.riscv1.cntrl_unit_top.Op[6:0]
+@28
+single_cycle_tb.riscv1.cntrl_unit_top.PCSrc
+single_cycle_tb.riscv1.cntrl_unit_top.RegWrite
+single_cycle_tb.riscv1.cntrl_unit_top.ResultSrc[1:0]
+single_cycle_tb.riscv1.cntrl_unit_top.Zero
+single_cycle_tb.riscv1.cntrl_unit_top.funct3[2:0]
+@22
+single_cycle_tb.riscv1.cntrl_unit_top.funct7[6:0]
+@1000200
+-Control Unit
+@800200
+-Data Memory
+@22
+single_cycle_tb.riscv1.DATA_MEM.A[31:0]
+single_cycle_tb.riscv1.DATA_MEM.RD[31:0]
+single_cycle_tb.riscv1.DATA_MEM.WD[31:0]
+@28
+single_cycle_tb.riscv1.DATA_MEM.WE
+@1000200
+-Data Memory
+[pattern_trace] 1
+[pattern_trace] 0
